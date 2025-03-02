@@ -10,8 +10,8 @@
 			},
 			"flavor": {
 				"__TYPE__": "FieldContent",
-				"value": "watermelon",
-				"type": "Select"
+				"type": "Select",
+				"value": "lemonLime"
 			}
 		},
 		"items": []

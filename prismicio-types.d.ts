@@ -215,16 +215,12 @@ export interface SkyDiveSliceDefaultPrimary {
    *
    * - **Field Type**: Select
    * - **Placeholder**: *None*
-   * - **Default Value**: lemoneLime
+   * - **Default Value**: lemonLime
    * - **API ID Path**: sky_dive.default.primary.flavor
    * - **Documentation**: https://prismic.io/docs/field#select
    */
   flavor: prismic.SelectField<
-    | "lemoneLime"
-    | "grape"
-    | "blackCherry"
-    | "strawberryLemonade"
-    | "watermelon",
+    "lemonLime" | "grape" | "blackCherry" | "strawberryLemonade" | "watermelon",
     "filled"
   >;
 }
