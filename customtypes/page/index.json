@@ -9,7 +9,7 @@
       "uid": {
         "type": "UID",
         "config": {
-          "label": "UID",
+          "label": "home",
           "placeholder": ""
         }
       },
@@ -27,6 +27,9 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
+            "sky_dive": {
+              "type": "SharedSlice"
+            },
             "hero": {
               "type": "SharedSlice"
             }
