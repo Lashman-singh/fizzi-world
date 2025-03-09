@@ -110,8 +110,8 @@ export default function Scene({ sentence, flavor }: SkyDiveProps) {
       .to(canRef.current.position, {
         x: 0,
         y: 0,
-        duration: 0.3,
-        ease: "back.out(1.7)",
+        duration: 0.5,
+        ease: "back.out(2.0)",
       })
       .to(
         wordsRef.current.children.map((word) => word.position),
